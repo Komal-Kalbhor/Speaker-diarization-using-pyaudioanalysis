@@ -966,7 +966,7 @@ def speakerDiarization(filename, n_speakers, mt_size=2.0, mt_step=0.2,
 	sound = AudioSegment.from_wav(filename)
 	exportPath = ""
 	speech = list()
-	WIT_AI_KEY = "JK5HHUW33JJZR6E3CG34IZ3AM56ZI4YC"
+	WIT_AI_KEY = "<place_your_key_here>"
 	def processAudio(WAV_FILE):
 		WAV_FILE = WAV_FILE.split("\\")[-1]
 		r = sr.Recognizer()
